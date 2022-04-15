@@ -10,12 +10,17 @@
     <title>Подготовка к ОГЭ</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/exams.png" type="image/x-icon"> 
+    
 </head>
 <body>
+    
     <div class="wrapper">
         <header class="header center" id="header">
             <header class="header">
                 <div class="header__container _container">
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
                     <nav class="header__menu menu">
                         <ul class="menu__list">
                             <li class="menu__item">
@@ -57,7 +62,7 @@
         <div class="top center">
             <h1 class="heading__top" id="items">Подготовка к экзаменам</h1>
             <div class="items__top">
-                <div class="item__top"> 
+                <div class="item__top maths__item" url="items/maths.html"> 
                     <div class="top__photo"><a href="items/maths.html"><img src="img/xz1.svg" alt="maths__photo"></a></div>
                     <div class="heading__maths">
                         <div class="heading__maths__text">
@@ -65,8 +70,7 @@
                         </div>    
                     </div>
                 </div>
-                
-                <div class="item__top">
+                <div class="item__top informatics__item" url="items/informatics.html">
                     <div class="top__photo"><a href="items/informatics.html"><img src="img/xz3.svg" alt="informatics__photo"></a></div>
                     <div class="heading__informatics">
                         <div class="heading__informatics__text">
@@ -74,7 +78,7 @@
                         </div>
                     </div>    
                 </div>
-                <div class="item__top physics__item">
+                <div class="item__top physics__item" url="items/physics.html">
                     <div class="top__photo"><a href="items/physics.html"><img src="img/xz2.svg" alt="physics__photo"></a></div>
                     <div class="heading__physics">
                         <div class="heading__physics__text">
@@ -330,6 +334,9 @@
                 </div>   
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>    
+    <script src="script.js"></script>
+    
 </body>
 </html>
 
