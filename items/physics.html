@@ -12,46 +12,36 @@
     <link rel="stylesheet" href="physics.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
+          <a href="" class="header__logo"></a>
+          <div class="header__menu menu">
+            <div class="menu__icon">
+              <span></span>
+            </div>
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li><a data-goto=".#_2" class="menu__link" href="../index.html">На главную</a>
+                    <span class="menu__arrow"></span>
+                    <ul class="menu__sub-list">
+                        <li><a class="menu__sub-link" href="../schools.html">Курсы</a></li>
+                        <li><a class="menu__sub-link" href="../wherelater9/wherelater9.html">Поступление</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a data-goto=".#_1" href="" class="menu__link">Предметы</a>
+                    <span class="menu__arrow"></span>
+                    <ul class="menu__sub-list">
+                      <li><a class="menu__sub-link" href="maths.html">Математика</a></li>
+                      <li><a class="menu__sub-link" href="informatics.html">Информатика</a></li>
+                    </ul>
+                  </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header> 
     <div class="wrapper">
-        <header class="header center" id="header">
-            <header class="header">
-                <div class="header__container _container">
-                    <nav class="header__menu menu">
-                        <ul class="menu__list">
-                            <li class="menu__item"><a href="../index.html" class="menu__link">На главную</a>
-                                <ul>
-                                    <div class="menu__items1">
-                                        <li><a class="menu__link1" href="../wherelater9/wherelater9.html">Поступление</a></li>
-                                    </div>
-                                </ul>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Предметы</a>
-                                <ul>
-                                    <div class="menu__items2">
-                                        <li><a class="menu__link1" href="../items/maths.html">Математика</a></li>
-                                        <li><a class="menu__link1" href="../items/informatics.html">Информатика</a></li>
-                                        <li><a class="menu__link1" href="../items/physics.html">Физика</a></li>
-                                    </div>
-                                </ul>
-                            </li>
-                            <li><a class="menu__link" href=#"">Подготовка</a>
-                                <ul>
-                                    <div class="menu__items3">
-                                        <li><a class="menu__link1" href="#themes">Темы</a></li>
-                                        <li><a class="menu__link1" href="#why">Зачем</a></li>
-                                        <li><a class="menu__link1" href="#structure">Структура</a></li>
-                                        <li><a class="menu__link1" href="#changes">Изменения</a></li>
-                                        <li><a class="menu__link1" href="#complex">Сложное</a></li>
-                                        <li><a class="menu__link1" href="#lifehacks">Лайфхаки</a></li>
-                                    </div>
-                                </ul>
-                            </li>  
-                        </ul> 
-                    </nav> 
-                </div>
-            </header>  
-        </header>
         <div class="advice center">
             <h1 class="heading__advice">Подготовка к ОГЭ по физике</h1>
             <div class="themes__advice" id="themes"> 
@@ -262,5 +252,6 @@
             </div>
         </div>
     </div>
+    <script src="../script.js"></script>
 </body>
 </html>

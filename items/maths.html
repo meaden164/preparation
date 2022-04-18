@@ -17,37 +17,36 @@
     <link rel="stylesheet" href="maths.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
+          <a href="" class="header__logo"></a>
+          <div class="header__menu menu">
+            <div class="menu__icon">
+              <span></span>
+            </div>
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li><a data-goto=".#_2" class="menu__link" href="../index.html">На главную</a>
+                    <span class="menu__arrow"></span>
+                    <ul class="menu__sub-list">
+                        <li><a class="menu__sub-link" href="../schools.html">Курсы</a></li>
+                        <li><a class="menu__sub-link" href="../wherelater9/wherelater9.html">Поступление</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a data-goto=".#_1" href="" class="menu__link">Предметы</a>
+                    <span class="menu__arrow"></span>
+                    <ul class="menu__sub-list">
+                      <li><a class="menu__sub-link" href="informatics.html">Информатика</a></li>
+                      <li><a class="menu__sub-link" href="physics.html">Физика</a></li>
+                    </ul>
+                  </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header> 
     <div class="wrapper">
-        <header class="header center" id="header">
-            <header class="header">
-                <div class="header__container _container">
-                    <div class="header__burger">
-                        <span></span>
-                    </div>
-                    <nav class="header__menu menu">
-                        <ul class="menu__list">
-                            <li class="menu__item"><a href="../index.html" class="menu__link">На главную</a>
-                                <ul>
-                                    <div class="menu__items1">
-                                        <li><a class="menu__link1" href="../wherelater9/wherelater9.html">Поступление</a></li>
-                                    </div>
-                                </ul>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Предметы</a>
-                                <ul>
-                                    <div class="menu__items2">
-                                        <li><a class="menu__link1" href="../items/maths.html">Математика</a></li>
-                                        <li><a class="menu__link1" href="../items/informatics.html">Информатика</a></li>
-                                        <li><a class="menu__link1" href="../items/physics.html">Физика</a></li>
-                                    </div>
-                                </ul>
-                            </li>
-                        </ul> 
-                    </nav> 
-                </div>
-            </header>  
-        </header>
         <div class="advice__maths center"> 
             <h1 class="heading__advice">Советы по подготовке к ОГЭ по математике</h1>
             <p class="paragraph__advice">Во время подготовки нужно уделять внимание и алгебре, и геометрии. Многие школьники не понимают принципов решения планиметрии на ОГЭ (а на ЕГЭ добавляется еще и стереометрия), но без нее экзамен не будет считаться сданным.
@@ -293,7 +292,6 @@
                 </div>
                 </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="../script.js"></script>
 </body>
 </html>
