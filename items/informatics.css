@@ -142,7 +142,7 @@
     top: 100%;
     right: 0;
     background-color: #000;
-    padding: 15px;
+    padding-top: 5px;
     min-width: 200px;
     margin: 0px -40px 0px 0px;
     border-radius: 0px 0px 7px 7px;
@@ -151,7 +151,7 @@
   .menu__sub-list:hover {}
 
   .menu__sub-list li {
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
   }
 
   .menu__sub-list li:last-child {
@@ -159,6 +159,7 @@
   }
 
   .menu__sub-link {
+    
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -208,7 +209,7 @@
       align-items: center;
     }
 
-    .menu__list>li {
+    .menu__list > li {
       padding: 10px 0px;
     }
 
@@ -377,7 +378,6 @@
     line-height: 59px;
     display: flex;
     align-items: center;
-    text-align: center;
     color: #000000;
     font-weight: 900;
     margin-bottom: 15px;
