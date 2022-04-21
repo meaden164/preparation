@@ -604,3 +604,18 @@
     .link__oge {
       color: #000;
     }
+
+    @media (max-width: 425px) {
+      .heading__advice {
+        font-size: 40px;
+        line-height: 60px;
+      }
+
+      .table__part2 {
+        display: none;
+      }
+
+      .heading__themes {
+        font-size: 35px;
+      }
+    }
