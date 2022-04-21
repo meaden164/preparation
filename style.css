@@ -386,6 +386,9 @@ body._touch .menu__list>li._active .menu__sub-list {
   align-items: center;
 }
 
+
+
+
 .heading__maths {
   display: flex;
   background: #E3E3E3;
@@ -396,6 +399,7 @@ body._touch .menu__list>li._active .menu__sub-list {
   width: 100%;
   justify-content: center;
   margin-top: 106px;
+
 }
 
 .heading__maths__text {
